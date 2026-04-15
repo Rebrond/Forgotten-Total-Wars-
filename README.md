@@ -11,30 +11,30 @@ Loading-time research exists, but it is still experimental and is not part of th
 
 ## Repository Layout
 
-- [docs](/D:/TW_uiscaler/docs)
+- [docs](docs/)
   - shared cross-game documents
-  - [PORTING_HANDOFF.md](/D:/TW_uiscaler/docs/PORTING_HANDOFF.md)
-- [games](/D:/TW_uiscaler/games)
+  - [PORTING_HANDOFF.md](docs/PORTING_HANDOFF.md)
+- [games](games/)
   - one folder per supported game
-- [games/shogun2](/D:/TW_uiscaler/games/shogun2)
+- [games/shogun2](games/shogun2/)
   - source, notes, tools, and releases for Shogun 2
 
 ## Current Game
 
 Shogun 2 lives here:
 
-- [games/shogun2](/D:/TW_uiscaler/games/shogun2)
+- [games/shogun2](games/shogun2/)
 
 Stable release package:
 
-- [current release](/D:/TW_uiscaler/games/shogun2/releases/current)
+- [current release](games/shogun2/releases/current/)
 
 ## Build
 
 For Shogun 2:
 
-1. Go to [games/shogun2](/D:/TW_uiscaler/games/shogun2)
-2. Build from source using the manual MSVC settings in [games/shogun2/README.md](/D:/TW_uiscaler/games/shogun2/README.md)
+1. Go to [games/shogun2](games/shogun2/)
+2. Build from source using the manual MSVC settings in [games/shogun2/README.md](games/shogun2/README.md)
 
 Build output:
 

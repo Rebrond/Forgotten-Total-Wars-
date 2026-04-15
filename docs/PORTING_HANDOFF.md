@@ -18,18 +18,18 @@ Not stable enough to treat as shipped features:
 
 Current stable release package:
 
-- [current release](/D:/TW_uiscaler/games/shogun2/releases/current)
-- buildable from [games/shogun2](/D:/TW_uiscaler/games/shogun2)
+- [current release](../games/shogun2/releases/current/)
+- buildable from [games/shogun2](../games/shogun2/)
 
 ## Code map
 
 Main files:
 
-- [src/dinput8_proxy.cpp](/D:/TW_uiscaler/games/shogun2/src/dinput8_proxy.cpp)
-- [src/borderless_hooks.cpp](/D:/TW_uiscaler/games/shogun2/src/borderless_hooks.cpp)
-- [src/common.cpp](/D:/TW_uiscaler/games/shogun2/src/common.cpp)
-- [dinput8_proxy.def](/D:/TW_uiscaler/games/shogun2/dinput8_proxy.def)
-- build instructions in [games/shogun2/README.md](/D:/TW_uiscaler/games/shogun2/README.md)
+- [src/dinput8_proxy.cpp](../games/shogun2/src/dinput8_proxy.cpp)
+- [src/borderless_hooks.cpp](../games/shogun2/src/borderless_hooks.cpp)
+- [src/common.cpp](../games/shogun2/src/common.cpp)
+- [dinput8_proxy.def](../games/shogun2/dinput8_proxy.def)
+- build instructions in [games/shogun2/README.md](../games/shogun2/README.md)
 
 What each file does:
 
@@ -51,11 +51,11 @@ These are reference points, not portable assumptions.
 
 Real game code target:
 
-- [empire.retail.dll](/D:/TW_uiscaler/empire.retail.dll)
+- `empire.retail.dll` in the local research workspace, not tracked in git
 
 Launcher stub:
 
-- [shogun2.exe](/D:/TW_uiscaler/shogun2.exe)
+- `shogun2.exe` in the local research workspace, not tracked in git
 
 Architecture:
 

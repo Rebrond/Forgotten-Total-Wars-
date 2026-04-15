@@ -84,16 +84,16 @@ UI scaling is applied at launch, not live during gameplay.
 
 ## Layout
 
-- [src](/D:/TW_uiscaler/games/shogun2/src)
-- [notes](/D:/TW_uiscaler/games/shogun2/notes)
-- [tools](/D:/TW_uiscaler/games/shogun2/tools)
+- [src](src/)
+- [notes](notes/)
+- [tools](tools/)
 
 ## Release
 
 Tracked current release:
 
-- [dinput8.dll](/D:/TW_uiscaler/games/shogun2/releases/current/dinput8.dll)
-- [shogun2_mod.ini](/D:/TW_uiscaler/games/shogun2/releases/current/shogun2_mod.ini)
+- [dinput8.dll](releases/current/dinput8.dll)
+- [shogun2_mod.ini](releases/current/shogun2_mod.ini)
 
 Generated zip packages and checksums are intentionally not tracked in git.
 
@@ -101,4 +101,4 @@ Generated zip packages and checksums are intentionally not tracked in git.
 
 Shared cross-game porting guidance is in:
 
-- [docs/PORTING_HANDOFF.md](/D:/TW_uiscaler/docs/PORTING_HANDOFF.md)
+- [docs/PORTING_HANDOFF.md](../../docs/PORTING_HANDOFF.md)
