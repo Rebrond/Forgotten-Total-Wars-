@@ -27,15 +27,14 @@ Shogun 2 lives here:
 
 Stable release package:
 
-- not tracked in git
-- build from source in [games/shogun2](/D:/TW_uiscaler/games/shogun2)
+- [current release](/D:/TW_uiscaler/games/shogun2/releases/current)
 
 ## Build
 
 For Shogun 2:
 
 1. Go to [games/shogun2](/D:/TW_uiscaler/games/shogun2)
-2. Run `build_x86.bat`
+2. Build from source using the manual MSVC settings in [games/shogun2/README.md](/D:/TW_uiscaler/games/shogun2/README.md)
 
 Build output:
 

@@ -10,7 +10,6 @@
 !games/
 !games/shogun2/
 !games/shogun2/README.md
-!games/shogun2/build_x86.bat
 !games/shogun2/dinput8_proxy.def
 !games/shogun2/shogun2_mod.ini
 !games/shogun2/src/
@@ -20,5 +19,10 @@
 !games/shogun2/tools/
 !games/shogun2/tools/**
 
+/games/shogun2/build_x86.bat
 /games/shogun2/build/
-/games/shogun2/releases/
+!games/shogun2/releases/
+/games/shogun2/releases/*
+!games/shogun2/releases/current/
+!games/shogun2/releases/current/dinput8.dll
+!games/shogun2/releases/current/shogun2_mod.ini

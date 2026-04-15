@@ -18,7 +18,7 @@ Not stable enough to treat as shipped features:
 
 Current stable release package:
 
-- not tracked in git
+- [current release](/D:/TW_uiscaler/games/shogun2/releases/current)
 - buildable from [games/shogun2](/D:/TW_uiscaler/games/shogun2)
 
 ## Code map
@@ -29,7 +29,7 @@ Main files:
 - [src/borderless_hooks.cpp](/D:/TW_uiscaler/games/shogun2/src/borderless_hooks.cpp)
 - [src/common.cpp](/D:/TW_uiscaler/games/shogun2/src/common.cpp)
 - [dinput8_proxy.def](/D:/TW_uiscaler/games/shogun2/dinput8_proxy.def)
-- [build_x86.bat](/D:/TW_uiscaler/games/shogun2/build_x86.bat)
+- build instructions in [games/shogun2/README.md](/D:/TW_uiscaler/games/shogun2/README.md)
 
 What each file does:
 

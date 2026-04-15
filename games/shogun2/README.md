@@ -14,13 +14,45 @@ Still experimental:
 
 ## Build
 
-Run from this folder:
+Build prerequisites:
+
+- Visual Studio with MSVC and Windows SDK
+- build for `x86`
+- run the commands from this folder
+
+Recommended environment setup:
 
 ```bat
-build_x86.bat
+call "D:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvarsall.bat" x86
 ```
 
-Output:
+Create output folders:
+
+```bat
+if not exist build mkdir build
+if not exist build\obj mkdir build\obj
+if not exist build\bin mkdir build\bin
+```
+
+Compile:
+
+```bat
+cl /nologo /std:c++20 /O2 /MT /EHsc /W4 /DUNICODE /D_UNICODE /DWIN32_LEAN_AND_MEAN /D_CRT_SECURE_NO_WARNINGS /I src /c src\common.cpp src\borderless_hooks.cpp src\dinput8_proxy.cpp /Fobuild\obj\
+```
+
+Link:
+
+```bat
+link /nologo /DLL /MACHINE:X86 /OUT:build\bin\dinput8.dll /DEF:dinput8_proxy.def build\obj\common.obj build\obj\borderless_hooks.obj build\obj\dinput8_proxy.obj user32.lib gdi32.lib kernel32.lib ole32.lib
+```
+
+Copy the default config:
+
+```bat
+copy /Y shogun2_mod.ini build\bin\shogun2_mod.ini
+```
+
+Expected output:
 
 - `build\bin\dinput8.dll`
 - `build\bin\shogun2_mod.ini`
@@ -58,9 +90,12 @@ UI scaling is applied at launch, not live during gameplay.
 
 ## Release
 
-Generated release artifacts are intentionally not tracked in git.
+Tracked current release:
 
-Build locally from source, or publish binaries separately through GitHub Releases later.
+- [dinput8.dll](/D:/TW_uiscaler/games/shogun2/releases/current/dinput8.dll)
+- [shogun2_mod.ini](/D:/TW_uiscaler/games/shogun2/releases/current/shogun2_mod.ini)
+
+Generated zip packages and checksums are intentionally not tracked in git.
 
 ## Notes
 
