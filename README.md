@@ -1,5 +1,7 @@
 # Forgotten Total Wars
 
+Community patches for older Total War games, starting with Shogun 2 borderless window mode and UI scaling.
+
 This repository is for compatibility, quality-of-life, and engine-behavior patches for older Total War games.
 
 The first shipped project is Shogun 2:
