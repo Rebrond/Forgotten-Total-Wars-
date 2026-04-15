@@ -1,0 +1,23 @@
+# Public-repo whitelist:
+# ignore everything by default, then explicitly include the files and folders
+# that are safe and useful to publish.
+/*
+
+!.gitignore
+!README.md
+!GITHUB_README.md
+!build_x86.bat
+!dinput8_proxy.def
+!shogun2_mod.ini
+
+!src/
+!src/**
+
+!notes/
+!notes/**
+
+!tools/
+!tools/**
+
+!releases/
+!releases/**
