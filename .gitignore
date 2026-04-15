@@ -5,19 +5,21 @@
 
 !.gitignore
 !README.md
-!GITHUB_README.md
-!build_x86.bat
-!dinput8_proxy.def
-!shogun2_mod.ini
+!docs/
+!docs/**
+!games/
+!games/shogun2/
+!games/shogun2/README.md
+!games/shogun2/build_x86.bat
+!games/shogun2/dinput8_proxy.def
+!games/shogun2/shogun2_mod.ini
+!games/shogun2/src/
+!games/shogun2/src/**
+!games/shogun2/notes/
+!games/shogun2/notes/**
+!games/shogun2/tools/
+!games/shogun2/tools/**
+!games/shogun2/releases/
+!games/shogun2/releases/**
 
-!src/
-!src/**
-
-!notes/
-!notes/**
-
-!tools/
-!tools/**
-
-!releases/
-!releases/**
+/games/shogun2/build/

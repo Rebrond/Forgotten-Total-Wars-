@@ -18,18 +18,18 @@ Not stable enough to treat as shipped features:
 
 Current stable release package:
 
-- [release folder](/D:/TW_uiscaler/releases/shogun2-borderless-ui-scale-v0.1.0)
-- [release zip](/D:/TW_uiscaler/releases/shogun2-borderless-ui-scale-v0.1.0.zip)
+- [release folder](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0)
+- [release zip](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0.zip)
 
 ## Code map
 
 Main files:
 
-- [src/dinput8_proxy.cpp](/D:/TW_uiscaler/src/dinput8_proxy.cpp)
-- [src/borderless_hooks.cpp](/D:/TW_uiscaler/src/borderless_hooks.cpp)
-- [src/common.cpp](/D:/TW_uiscaler/src/common.cpp)
-- [dinput8_proxy.def](/D:/TW_uiscaler/dinput8_proxy.def)
-- [build_x86.bat](/D:/TW_uiscaler/build_x86.bat)
+- [src/dinput8_proxy.cpp](/D:/TW_uiscaler/games/shogun2/src/dinput8_proxy.cpp)
+- [src/borderless_hooks.cpp](/D:/TW_uiscaler/games/shogun2/src/borderless_hooks.cpp)
+- [src/common.cpp](/D:/TW_uiscaler/games/shogun2/src/common.cpp)
+- [dinput8_proxy.def](/D:/TW_uiscaler/games/shogun2/dinput8_proxy.def)
+- [build_x86.bat](/D:/TW_uiscaler/games/shogun2/build_x86.bat)
 
 What each file does:
 
@@ -301,7 +301,7 @@ Avoid starting with:
 
 Use something close to this:
 
-> We already have a working Shogun 2 `dinput8.dll` mod for borderless window mode and launch-time UI scaling. Use `notes/PORTING_HANDOFF.md` as the starting map. First identify the real game module, architecture, and whether local `dinput8.dll` proxy loading works. Then port borderless first, verify it in-game, and only after that begin UI-scale RE. Do not assume Shogun 2 RVAs or config-object layouts carry over.
+> We already have a working Shogun 2 `dinput8.dll` mod for borderless window mode and launch-time UI scaling. Use `docs/PORTING_HANDOFF.md` as the starting map. First identify the real game module, architecture, and whether local `dinput8.dll` proxy loading works. Then port borderless first, verify it in-game, and only after that begin UI-scale RE. Do not assume Shogun 2 RVAs or config-object layouts carry over.
 
 ## Final recommendation
 
