@@ -42,22 +42,6 @@ Build output:
 - `games\shogun2\build\bin\dinput8.dll`
 - `games\shogun2\build\bin\shogun2_mod.ini`
 
-## Scope
-
-This public repository is intentionally curated. It includes:
-
-- source code
-- build scripts
-- reverse-engineering notes
-- release packages we built ourselves
-
-It does not include:
-
-- original game binaries
-- extracted game assets
-- Ghidra project databases
-- downloaded third-party tools
-
 ## Future Work
 
 Future Total War game patches should be added as siblings under `games/`, not mixed into the Shogun 2 tree.
