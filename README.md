@@ -31,6 +31,12 @@ Stable release package:
 
 - [current release](games/shogun2/releases/current/)
 
+Use the files from that folder like this:
+
+1. Copy `dinput8.dll` and `shogun2_mod.ini`
+2. Put them into `D:\Program Files (x86)\Steam\steamapps\common\Total War SHOGUN 2`
+3. Edit `shogun2_mod.ini` and change `[ui] scale=...` if you want a larger UI
+
 ## Build
 
 For Shogun 2:

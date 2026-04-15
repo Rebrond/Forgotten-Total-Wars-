@@ -59,12 +59,19 @@ Expected output:
 
 ## Install
 
-Copy these files into:
+Use the release files from [releases/current](releases/current/).
+
+Copy these files into the Shogun 2 install folder:
 
 `D:\Program Files (x86)\Steam\steamapps\common\Total War SHOGUN 2`
 
-- `build\bin\dinput8.dll`
-- `build\bin\shogun2_mod.ini`
+- `dinput8.dll`
+- `shogun2_mod.ini`
+
+Those files are the tracked release copies here:
+
+- [dinput8.dll](releases/current/dinput8.dll)
+- [shogun2_mod.ini](releases/current/shogun2_mod.ini)
 
 ## Usage
 
@@ -76,9 +83,23 @@ For borderless:
 
 For UI scaling:
 
-- edit `shogun2_mod.ini`
-- set `scale=1.00` to disable scaling
-- use values above `1.00` to make the UI larger
+- open `shogun2_mod.ini` in a text editor
+- find:
+
+```ini
+[ui]
+scale=1.00
+```
+
+- change `scale` and save the file
+- launch the game again
+
+Examples:
+
+- `1.00` = disabled
+- `1.10` = slightly larger
+- `1.25` = good starting point for high resolutions
+- `1.40` = aggressive scaling
 
 UI scaling is applied at launch, not live during gameplay.
 
