@@ -18,8 +18,8 @@ Not stable enough to treat as shipped features:
 
 Current stable release package:
 
-- [release folder](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0)
-- [release zip](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0.zip)
+- not tracked in git
+- buildable from [games/shogun2](/D:/TW_uiscaler/games/shogun2)
 
 ## Code map
 

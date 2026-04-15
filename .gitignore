@@ -19,7 +19,6 @@
 !games/shogun2/notes/**
 !games/shogun2/tools/
 !games/shogun2/tools/**
-!games/shogun2/releases/
-!games/shogun2/releases/**
 
 /games/shogun2/build/
+/games/shogun2/releases/

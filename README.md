@@ -27,8 +27,8 @@ Shogun 2 lives here:
 
 Stable release package:
 
-- [release folder](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0)
-- [release zip](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0.zip)
+- not tracked in git
+- build from source in [games/shogun2](/D:/TW_uiscaler/games/shogun2)
 
 ## Build
 

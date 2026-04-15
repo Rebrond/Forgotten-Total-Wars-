@@ -55,14 +55,12 @@ UI scaling is applied at launch, not live during gameplay.
 - [src](/D:/TW_uiscaler/games/shogun2/src)
 - [notes](/D:/TW_uiscaler/games/shogun2/notes)
 - [tools](/D:/TW_uiscaler/games/shogun2/tools)
-- [releases](/D:/TW_uiscaler/games/shogun2/releases)
 
 ## Release
 
-Current stable release:
+Generated release artifacts are intentionally not tracked in git.
 
-- [shogun2-borderless-ui-scale-v0.1.0](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0)
-- [zip](/D:/TW_uiscaler/games/shogun2/releases/shogun2-borderless-ui-scale-v0.1.0.zip)
+Build locally from source, or publish binaries separately through GitHub Releases later.
 
 ## Notes
 
